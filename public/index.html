@@ -177,10 +177,6 @@
       body.classList.toggle('modal-shown');
     }
 
-    function setTrigger (trigger) {
-      trigger.onclick = toggleModal;
-    }
-
     triggers.forEach(function (item) {
       item.onclick = toggleModal;
     });
